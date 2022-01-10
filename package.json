@@ -34,9 +34,9 @@
   },
   "repository": "Permissionless-Software-Foundation/slp-avax-bridge",
   "dependencies": {
-    "@psf/bch-js": "^4.5.4",
-    "apidoc": "^0.25.0",
-    "avalanche": "^3.2.5",
+    "@psf/bch-js": "^4.7.0",
+    "apidoc": "^0.50.0",
+    "avalanche": "^3.4.1",
     "bch-util": "^1.2.5"
   },
   "devDependencies": {
