@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - semantic-release > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - eslint > @eslint/eslintrc > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - standard > eslint > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - standard > eslint > @eslint/eslintrc > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - standard > eslint > table > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > standard > eslint > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > standard > eslint-plugin-import > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > nyc > istanbul-lib-instrument > @babel/core > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > standard > eslint > inquirer > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > standard > eslint > table > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
+    - '@psf/bch-js > @psf/bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-25T23:25:01.809Z'
