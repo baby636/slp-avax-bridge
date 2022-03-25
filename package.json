@@ -11,7 +11,9 @@
     "lint": "standard --env mocha --fix",
     "docs": "./node_modules/.bin/apidoc -i lib/ -o docs",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "coverage:report": "nyc --reporter=html mocha test/unit/ --exit"
+    "coverage:report": "nyc --reporter=html mocha test/unit/ --exit",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [
     "bitcoin",
@@ -37,7 +39,8 @@
     "@psf/bch-js": "^4.5.4",
     "apidoc": "^0.25.0",
     "avalanche": "^3.2.5",
-    "bch-util": "^1.2.5"
+    "bch-util": "^1.2.5",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -68,5 +71,6 @@
     "hooks": {
       "pre-commit": "npm run lint"
     }
-  }
+  },
+  "snyk": true
 }
